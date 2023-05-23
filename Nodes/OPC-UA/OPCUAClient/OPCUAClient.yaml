@@ -104,7 +104,6 @@ Children:
         Type: EUInformationType
         DataType: EUInformation
         DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-        ModellingRule: Optional
         Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
         Children:
         - Name: UnitId
@@ -218,7 +217,6 @@ Children:
         Type: EUInformationType
         DataType: EUInformation
         DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-        ModellingRule: Optional
         Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
         Children:
         - Name: UnitId
@@ -336,7 +334,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-          ModellingRule: Optional
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
@@ -461,7 +458,6 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
-          ModellingRule: Optional
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
