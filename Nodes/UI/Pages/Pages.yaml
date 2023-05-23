@@ -12662,6 +12662,18 @@ Children:
       Type: BaseDataVariableType
       DataType: ResourceUri
       Value: "ns=51;%PROJECTDIR%/FTOptixLogo_cyan.svg"
+    - Name: LeftMargin
+      Id: g=4d1ca8a7e4613a0d353d830cfd8552af
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 410.0
+    - Name: TopMargin
+      Id: g=5972d8c9379a6760653f035659a7e3f3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 590.0
 - Name: QRCodeDialog
   Id: g=96d09cec4caf69e1bd5c83e01cfb7502
   Supertype: Dialog
