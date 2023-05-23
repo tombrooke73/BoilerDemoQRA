@@ -12662,6 +12662,51 @@ Children:
       Type: BaseDataVariableType
       DataType: ResourceUri
       Value: "ns=51;%PROJECTDIR%/FTOptixLogo_cyan.svg"
+    - Name: TopMargin
+      Id: g=e3c42ce5ddef2d363d901bcf16b57f52
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 350.0
+    - Name: LeftMargin
+      Id: g=56e217cb1e982edfeee92f77d362a798
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 950.0
+  - Name: LED1
+    Id: g=2e23a500cb29c4924739f06073ea1d3b
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=b02800c9d7f389d51bda611fdcdef395
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Id: g=14ef27dc73daa3b2b36a43e739a331b3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=648599449e238be082af5fd9a8165565
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: TopMargin
+      Id: g=835d10f0e2ff439de54b61691dbe0810
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: LeftMargin
+      Id: g=dd1d98fca79e364021fe78a448831586
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
 - Name: QRCodeDialog
   Id: g=96d09cec4caf69e1bd5c83e01cfb7502
   Supertype: Dialog
