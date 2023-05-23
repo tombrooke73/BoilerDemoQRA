@@ -1,0 +1,95 @@
+Project:
+ Name: BoilerDemoQRA_Design
+ ProjectNamespaceIndex: 27
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.0
+ CoreVersion: 1.0
+ Dependencies:
+  2:
+   Uri: BoilerDemoQRA
+   RelativePath: BoilerDemoQRA.optix
+  3:
+   Uri: '9c64b80c4aee4efea6f1874de8439dce#urn:ASPC474.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9c64b80c4aee4efea6f1874de8439dce
+  4:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC553.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  5:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://opcfoundation.org/UA/DI/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  6:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  7:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  8:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC508.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  9:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:bm100:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  10:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:DESKTOP-NGN08CH:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  11:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:DESKTOP-VUVES76:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  12:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC457.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  13:
+   Uri: '9c64b80c4aee4efea6f1874de8439dce#http://opcfoundation.org/UA/DI/'
+   ServerUri: 9c64b80c4aee4efea6f1874de8439dce
+  14:
+   Uri: '4f6bdbef55db4ba394044670e85c8319#urn:ASPC474.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 4f6bdbef55db4ba394044670e85c8319
+  15:
+   Uri: '4f6bdbef55db4ba394044670e85c8319#http://opcfoundation.org/UA/DI/'
+   ServerUri: 4f6bdbef55db4ba394044670e85c8319
+  16:
+   Uri: '4f6bdbef55db4ba394044670e85c8319#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 4f6bdbef55db4ba394044670e85c8319
+  17:
+   Uri: '4f6bdbef55db4ba394044670e85c8319#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 4f6bdbef55db4ba394044670e85c8319
+  18:
+   Uri: '9c64b80c4aee4efea6f1874de8439dce#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 9c64b80c4aee4efea6f1874de8439dce
+  19:
+   Uri: '9c64b80c4aee4efea6f1874de8439dce#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 9c64b80c4aee4efea6f1874de8439dce
+  20:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 1.0
+  21:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 1.0
+  22:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  24:
+   Uri: 'urn:FTOptix:EthernetIPTagImporter'
+   Module: FTOptix.EthernetIPTagImporter
+   Version: 1.0
+  25:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
+  26:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/EthernetIPDriver/LogixStation/EthernetIPTagImporter.yaml
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient/OPCUATagImporter.yaml'
